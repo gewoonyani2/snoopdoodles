@@ -55,6 +55,6 @@ async function init() {
         } catch (e) { res.status(500).json({ error: e.message }); }
     });
 
-    app.listen(8080, () => console.log('🚀 Booking systeem op http://localhost:3000'));
+    app.listen(80, () => console.log('🚀 Booking systeem op http://localhost:3000'));
 }
 init();
